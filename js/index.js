@@ -8,12 +8,12 @@ app.config(function($stateProvider, $urlRouterProvider) {
     controller: 'MainController'
   })
   .state('app.nested', {
-    url: '/anotherPage',
+    url: '/nested',
     templateUrl: 'html/nested.html',
     controller: 'MainController'
   })
   .state('app.nested.anotherNested', {
-    url: '/anotherNested',
+    url: '/app/nested/anotherNested',
     templateUrl: 'html/anotherNested.html',
     controller: 'MainController'
   })
@@ -37,5 +37,5 @@ app.config(function($stateProvider, $urlRouterProvider) {
 });
 
 app.controller('MainController', function($scope, $state) {
-
+  
 });

@@ -1,0 +1,5 @@
+.view {
+  min-width: 100px;
+  min-height: 300px;
+  border: 2px solid black;
+}
